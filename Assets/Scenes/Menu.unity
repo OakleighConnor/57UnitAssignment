@@ -342,9 +342,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1382911193}
-        m_TargetAssemblyTypeName: ButtonUI, Assembly-CSharp
-        m_MethodName: ChangeSceneButton
+      - m_Target: {fileID: 1371558940}
+        m_TargetAssemblyTypeName: BC, Assembly-CSharp
+        m_MethodName: ButtonControlCaller
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3298,6 +3298,7 @@ RectTransform:
   - {fileID: 1689221903}
   - {fileID: 1230896155}
   - {fileID: 736178941}
+  - {fileID: 1371558939}
   m_Father: {fileID: 1989702262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4376,6 +4377,54 @@ RectTransform:
   m_AnchoredPosition: {x: 137.28705, y: -82.69031}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1371558938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1371558939}
+  - component: {fileID: 1371558940}
+  m_Layer: 5
+  m_Name: BCC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1371558939
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371558938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1005876453}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1371558940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371558938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7f8522b6151fa45ac18b370a267b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1373015042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4522,7 +4571,7 @@ GameObject:
   - component: {fileID: 1382911193}
   m_Layer: 0
   m_Name: ButtonController
-  m_TagString: Untagged
+  m_TagString: ButtonManSingle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4539,7 +4588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58faffb05a14f5c449a57a7233fcecb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeScene: Level1
+  sceneName: 
 --- !u!4 &1382911194
 Transform:
   m_ObjectHideFlags: 0

@@ -12,20 +12,6 @@ public class AudioManager : MonoBehaviour
     public AudioClip background;
     public AudioClip select;
     public AudioClip play;
-
-    public static AudioManager instance;
-    void Awake()
-    {
-        if (instance != null)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
     // Start is called before the first frame update
     void Start()
     {
