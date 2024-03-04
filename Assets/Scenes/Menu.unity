@@ -3513,9 +3513,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1382911193}
-        m_TargetAssemblyTypeName: ButtonUI, Assembly-CSharp
-        m_MethodName: ChangeSceneButton
+      - m_Target: {fileID: 1371558940}
+        m_TargetAssemblyTypeName: BC, Assembly-CSharp
+        m_MethodName: ButtonControlCaller
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5572,9 +5572,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1382911193}
-        m_TargetAssemblyTypeName: ButtonUI, Assembly-CSharp
-        m_MethodName: ChangeSceneButton
+      - m_Target: {fileID: 1371558940}
+        m_TargetAssemblyTypeName: BC, Assembly-CSharp
+        m_MethodName: ButtonControlCaller
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
